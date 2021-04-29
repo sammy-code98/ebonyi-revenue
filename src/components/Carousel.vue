@@ -4,13 +4,21 @@
       <q-carousel-slide
         :name="1"
         img-src="~assets/dave.jpg"
+        class="img-overlay"
       >
-        <div  :class="$q.screen.lt.md ? 'q-ma-md  ' : 'absolute-center'">
-          <div  :class="$q.screen.lt.md ? 'text-h4  text-grey-6 text-center' : 'text-h2 text-grey-2'">
+        <div :class="$q.screen.lt.md ? 'q-ma-md  ' : 'absolute-center'">
+          <div :class="$q.screen.lt.md ? 'text-h4 ' : 'text-h2'">
             Pay your tax and lets grow together!!!
           </div>
-          <div :class="$q.screen.lt.md ? 'text-subtitle1':'text-body1 text-grey-8 q-mt-md text-weight-bold'">
-           As Ebonyi State  moves towards meeting the needs of a mega  city , Ebsirs  continues  to position  itself as the major funding arm
+          <div
+            :class="
+              $q.screen.lt.md
+                ? 'text-subtitle1'
+                : 'text-body1  q-mt-md text-weight-regular'
+            "
+          >
+            As Ebonyi State moves towards meeting the needs of a mega city ,
+            Ebsirs continues to position itself as the major funding arm
           </div>
           <div class="q-pa-md q-gutter-md">
             <q-btn
@@ -33,13 +41,21 @@
       <q-carousel-slide
         :name="2"
         img-src="~assets/camp.jpg"
+        class="img-overlay"
       >
-        <div  :class="$q.screen.lt.md ? 'q-ma-md  ' : 'absolute-center'">
-          <div  :class="$q.screen.lt.md ? 'text-h4  text-grey-6 text-center' : 'text-h2 text-grey-2'">
+        <div :class="$q.screen.lt.md ? 'q-ma-md  ' : 'absolute-center'">
+          <div :class="$q.screen.lt.md ? 'text-h4' : 'text-h2'">
             Pay your tax and lets grow together!!!
           </div>
-          <div :class="$q.screen.lt.md ? 'text-subtitle1':'text-body1 text-grey-8 q-mt-md text-weight-bold'">
-           As Ebonyi State  moves towards meeting the needs of a mega  city , Ebsirs  continues  to position  itself as the major funding arm
+          <div
+            :class="
+              $q.screen.lt.md
+                ? 'text-subtitle1'
+                : 'text-body1  q-mt-md text-weight-bold'
+            "
+          >
+            As Ebonyi State moves towards meeting the needs of a mega city ,
+            Ebsirs continues to position itself as the major funding arm
           </div>
           <div class="q-pa-md q-gutter-md">
             <q-btn
@@ -56,19 +72,27 @@
               dense
               class="q-pa-sm"
             />
-        </div>
+          </div>
         </div>
       </q-carousel-slide>
       <q-carousel-slide
         :name="3"
         img-src="~assets/building.jpg"
+        class="img-overlay"
       >
-        <div  :class="$q.screen.lt.md ? 'q-ma-md  ' : 'absolute-center'">
-          <div  :class="$q.screen.lt.md ? 'text-h4  text-grey-6 text-center' : 'text-h2 text-grey-2'">
+        <div :class="$q.screen.lt.md ? 'q-ma-md  ' : 'absolute-center'">
+          <div :class="$q.screen.lt.md ? 'text-h4 ' : 'text-h2'">
             Pay your tax and lets grow together!!!
           </div>
-          <div :class="$q.screen.lt.md ? 'text-subtitle1':'text-body1 text-grey-8 q-mt-md text-weight-bold'">
-           As Ebonyi State  moves towards meeting the needs of a mega  city , Ebsirs  continues  to position  itself as the major funding arm
+          <div
+            :class="
+              $q.screen.lt.md
+                ? 'text-subtitle1'
+                : 'text-body1  q-mt-md text-weight-bold'
+            "
+          >
+            As Ebonyi State moves towards meeting the needs of a mega city ,
+            Ebsirs continues to position itself as the major funding arm
           </div>
           <div class="q-pa-md q-gutter-md">
             <q-btn
@@ -91,13 +115,21 @@
       <q-carousel-slide
         :name="4"
         img-src="~assets/building.jpg"
+        class="img-overlay"
       >
-        <div  :class="$q.screen.lt.md ? 'q-ma-md  ' : 'absolute-center'">
-          <div  :class="$q.screen.lt.md ? 'text-h4  text-grey-6 text-center' : 'text-h2 text-grey-2'">
+        <div :class="$q.screen.lt.md ? 'q-ma-md  ' : 'absolute-center'">
+          <div :class="$q.screen.lt.md ? 'text-h4' : 'text-h2'">
             Pay your tax and lets grow together!!!
           </div>
-          <div :class="$q.screen.lt.md ? 'text-subtitle1':'text-body1 text-grey-8 q-mt-md text-weight-bold'">
-           As Ebonyi State  moves towards meeting the needs of a mega  city , Ebsirs  continues  to position  itself as the major funding arm
+          <div
+            :class="
+              $q.screen.lt.md
+                ? 'text-subtitle1'
+                : 'text-body1  q-mt-md text-weight-bold'
+            "
+          >
+            As Ebonyi State moves towards meeting the needs of a mega city ,
+            Ebsirs continues to position itself as the major funding arm
           </div>
           <div class="q-pa-md q-gutter-md">
             <q-btn
@@ -117,7 +149,6 @@
           </div>
         </div>
       </q-carousel-slide>
-      
     </q-carousel>
   </div>
 </template>
@@ -130,3 +161,15 @@ export default {
   }
 };
 </script>
+
+<style lang="scss" scoped>
+.img-overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  opacity: 1;
+  color: white;
+  text-align: center;
+}
+</style>

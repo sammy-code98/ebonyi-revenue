@@ -3,7 +3,7 @@
     <div class="text-h3 text-center text-weight-light text-grey">
       Our Partners
     </div>
-    <div class="text-center q-mt-md text-weight-light text-h6">
+    <div class="text-center q-mt-md text-weight-light text-h6 q-pa-sm">
       We operate more efficiently by making strategic partnerships
     </div>
     <div class="q-pa-md q-gutter-md  q-mt-md row justify-center">

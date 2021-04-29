@@ -18,13 +18,13 @@
           class="my-card text-white bg-green-6"
 
         >
-          <q-card-section>
+          <q-card-section> 
             <q-icon
               :name="service.icon"
-              class="text-white"
+              class="text-white on-right "
               style="font-size: 4.4em;"
             />
-            <div class="text-capitalize text-h6">{{ service.title }}</div>
+            <div class="text-capitalize text-center text-h6">{{ service.title }}</div>
           </q-card-section>
 
           <q-card-section class="q-pt-none">
