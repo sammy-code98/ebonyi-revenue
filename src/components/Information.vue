@@ -1,5 +1,5 @@
 <template>
-  <div class="row q-pa-xl">
+  <div class="row ">
     <div class="col-xs-12 col-sm-6 col-md-6 q-pa-md ">
       <q-img src="~assets/dave.jpg" height="400px" class="rounded-borders">
         <div class="absolute-center flex flex-center">
@@ -32,11 +32,11 @@
     </div>
 
     <div
-      class="col-xs-12 col-sm-12 col-md-4 q-pa-md q-mt-xl"
+      class="col-xs-12 col-sm-12 col-md-4"
       v-for="(info, index) in informations"
       :key="index"
     >
-      <q-card dark bordered class="bg-green-5 my-card">
+      <q-card dark bordered class="bg-green-5 my-card q-ml-xl q-mb-md q-mt-xl shadow-8">
         <q-card-section>
           <q-icon
           :name="info.icon"

@@ -21,7 +21,7 @@
           <q-card-section> 
             <q-icon
               :name="service.icon"
-              class="text-white on-right "
+              class="text-white icon-center "
               style="font-size: 4.4em;"
             />
             <div class="text-capitalize text-center text-h6">{{ service.title }}</div>
@@ -70,9 +70,14 @@ export default {
   }
 };
 </script>
-<style lang="sass" scoped>
-.my-card
-  width: 100%
-  max-width: 350px
-  height: 350px
+<style lang="scss" scoped>
+.my-card{
+  width: 100%;
+  max-width: 350px;
+  height: 350px;
+}
+.icon-center{
+  margin-left: 110px ;
+  margin-right: 110px;
+}
 </style>

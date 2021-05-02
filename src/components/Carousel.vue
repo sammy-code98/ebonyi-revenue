@@ -1,13 +1,16 @@
 <template>
   <div>
-    <q-carousel animated v-model="slide" navigation infinite>
-      <q-carousel-slide
-        :name="1"
-        img-src="~assets/dave.jpg"
-        class="img-overlay"
-      >
+    <div></div>
+    <q-carousel
+      animated
+      v-model="slide"
+      navigation
+      infinite
+      class="img-overlay"
+    >
+      <q-carousel-slide :name="1" img-src="~assets/dave.jpg" class="img">
         <div :class="$q.screen.lt.md ? 'q-ma-md  ' : 'absolute-center'">
-          <div :class="$q.screen.lt.md ? 'text-h4 ' : 'text-h2'">
+          <div :class="$q.screen.lt.md ? 'text-h4' : 'text-h2'">
             Pay your tax and lets grow together!!!
           </div>
           <div
@@ -38,11 +41,8 @@
           </div>
         </div>
       </q-carousel-slide>
-      <q-carousel-slide
-        :name="2"
-        img-src="~assets/camp.jpg"
-        class="img-overlay"
-      >
+
+      <q-carousel-slide :name="2" img-src="~assets/camp.jpg" class="img">
         <div :class="$q.screen.lt.md ? 'q-ma-md  ' : 'absolute-center'">
           <div :class="$q.screen.lt.md ? 'text-h4' : 'text-h2'">
             Pay your tax and lets grow together!!!
@@ -75,11 +75,7 @@
           </div>
         </div>
       </q-carousel-slide>
-      <q-carousel-slide
-        :name="3"
-        img-src="~assets/building.jpg"
-        class="img-overlay"
-      >
+      <q-carousel-slide :name="3" img-src="~assets/building.jpg" class="img">
         <div :class="$q.screen.lt.md ? 'q-ma-md  ' : 'absolute-center'">
           <div :class="$q.screen.lt.md ? 'text-h4 ' : 'text-h2'">
             Pay your tax and lets grow together!!!
@@ -112,11 +108,7 @@
           </div>
         </div>
       </q-carousel-slide>
-      <q-carousel-slide
-        :name="4"
-        img-src="~assets/building.jpg"
-        class="img-overlay"
-      >
+      <q-carousel-slide :name="4" img-src="~assets/building.jpg" class="img">
         <div :class="$q.screen.lt.md ? 'q-ma-md  ' : 'absolute-center'">
           <div :class="$q.screen.lt.md ? 'text-h4' : 'text-h2'">
             Pay your tax and lets grow together!!!
@@ -164,12 +156,18 @@ export default {
 
 <style lang="scss" scoped>
 .img-overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  opacity: 1;
+  overflow: hidden;
   color: white;
   text-align: center;
+  background: black;
+  background: linear-gradient(
+    rgba(9, 11, 32, 0.8),
+    rgba(24, 19, 21, 0.8)
+  ); 
+}
+
+.img {
+  object-fit: contain;
+  opacity: 0.4;
 }
 </style>

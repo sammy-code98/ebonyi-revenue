@@ -1,11 +1,11 @@
 <template>
   <div class="q-mt-xl">
     <q-img src="~assets/building.jpg" height="680px">
-      <div class="q-pa-md absolute-center absolute-left">
+      <div class="q-pa-md absolute-center absolute-left" height="100px">
         <div :class="$q.screen.lt.md ? 'text-h4  text-weight-bold ' : 'text-h3  text-weight-bold ' ">
           Efficient and Transparent Processes
         </div>
-        <div class="q-mt-md text-body1 text-weight-regular" :class="$q.screen.lt.md ? 'q-mt-md text-caption text-weight-bold' : 'q-mt-md text-body1 text-weight-regular' " >
+        <div class="q-mt-md text-body1 text-weight-regular" :class="$q.screen.lt.md ? 'q-mt-sm   text-caption text-weight-bold' : 'q-mt-md text-body1 text-weight-regular' " >
           Ebonyi State moves towards meeting the needs of a mega city, Ebsirs
           continues to position itself as the major funding arm of the state
           government by putting in place structures that will ensure collection
