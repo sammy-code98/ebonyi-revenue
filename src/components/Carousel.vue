@@ -3,6 +3,7 @@
     <div></div>
     <q-carousel
       animated
+      :autoplay="autoplay"
       v-model="slide"
       navigation
       infinite
@@ -148,7 +149,8 @@
 export default {
   data() {
     return {
-      slide: 1
+      slide: 1,
+      autoplay:true
     };
   }
 };
@@ -160,10 +162,7 @@ export default {
   color: white;
   text-align: center;
   background: black;
-  background: linear-gradient(
-    rgba(9, 11, 32, 0.8),
-    rgba(24, 19, 21, 0.8)
-  ); 
+  background: linear-gradient(rgba(9, 11, 32, 0.8), rgba(24, 19, 21, 0.8));
 }
 
 .img {
