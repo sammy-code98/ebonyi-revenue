@@ -3,7 +3,6 @@
     <div class="text-h3 text-center text-weight-light text-grey q-mt-xl" :class="$q.screen.lt.md ? 'text-h5 text-center text-weight-light text-grey q-mt-xl' : 'text-h3 text-center text-weight-light text-grey q-mt-xl'">
       Services that makes the process easier
     </div>
-    <!-- <q-separator color="orange" inset   flat/>      -->
 
     <div class="text-center q-mt-md text-weight-light text-h6 " :class="$q.screen.lt.md ? 'text-center q-ma-md text-weight-light text-subtitle1' : 'text-center q-mt-md text-weight-light text-h6'">
       Getting information for filing your taxes just got easier

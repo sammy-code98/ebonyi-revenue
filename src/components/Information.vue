@@ -1,7 +1,7 @@
 <template>
-  <div class="row ">
-    <div class="col-xs-12 col-sm-6 col-md-6 q-pa-md ">
-      <q-img src="~assets/dave.jpg" height="400px" class="rounded-borders">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 q-pa-md">
+      <q-img src="~assets/dave.jpg" height="400px" class="rounded-borders q-ml-sm">
         <div class="absolute-center flex flex-center">
           <q-icon
             name="mdi-newspaper"
@@ -16,7 +16,7 @@
       </q-img>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 q-pa-md  ">
-      <q-img src="~assets/building.jpg" height="400px" class="rounded-borders">
+      <q-img src="~assets/building.jpg" height="400px" class="rounded-borders q-ml-sm">
         <div class="absolute-center flex flex-center">
           <q-icon
             name="mdi-map-marker-multiple"
@@ -32,11 +32,11 @@
     </div>
 
     <div
-      class="col-xs-12 col-sm-12 col-md-4"
+      class="col-xs-12 col-sm-4 col-md-4"
       v-for="(info, index) in informations"
       :key="index"
     >
-      <q-card dark bordered class="bg-green-5 my-card q-ml-xl q-mb-md q-mt-xl shadow-8">
+      <q-card dark bordered class="bg-green-5 my-card q-ml-xl q-mr-xl q-mb-md q-mt-xl shadow-8">
         <q-card-section>
           <q-icon
           :name="info.icon"
