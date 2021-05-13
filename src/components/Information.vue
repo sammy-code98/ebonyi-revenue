@@ -36,7 +36,7 @@
       v-for="(info, index) in informations"
       :key="index"
     >
-      <q-card dark bordered class="bg-green-5 my-card q-ml-xl q-mr-xl q-mb-md q-mt-xl shadow-8">
+      <q-card dark bordered class="bg-green-5 my-card  shadow-8">
         <q-card-section>
           <q-icon
           :name="info.icon"
@@ -88,6 +88,7 @@ export default {
 <style lang="sass" scoped>
 .my-card
   width: 100%
-  max-width: 250px
+  max-width: 300px
   height:350px
+  margin: 30px
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="row bg-img text-white q-mt-xl">
+  <div class="row bg-img text-white q-mt-xl q-pb-md">
     <div class="col-xs-12 col-sm-6 col-md-4 ">
       <q-img src="~assets/logo-1.png"/>
       <div class="q-ma-md text-subtitle2">
