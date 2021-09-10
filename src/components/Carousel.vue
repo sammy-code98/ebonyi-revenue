@@ -10,8 +10,8 @@
       class="img-overlay"
     >
       <q-carousel-slide :name="1" img-src="~assets/dave.jpg" class="img">
-        <div :class="$q.screen.lt.md ? 'q-ma-md  ' : 'absolute-center'">
-          <div :class="$q.screen.lt.md ? 'text-h4' : 'text-h2'">
+        <div :class="$q.screen.lt.md ? 'q-ma-md' : 'q-mt-xl  text-center'">
+          <div :class="$q.screen.lt.md ? 'text-h4 ' : 'text-h2 '">
             Pay your tax and lets grow together!!!
           </div>
           <div
@@ -159,14 +159,15 @@ export default {
 <style lang="scss" scoped>
 .img-overlay {
   overflow: hidden;
-  color: white;
+  color:#fff;
   text-align: center;
   background: black;
   background: linear-gradient(rgba(9, 11, 32, 0.8), rgba(24, 19, 21, 0.8));
+  opacity: 0.8;
 }
 
 .img {
   object-fit: contain;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 </style>
