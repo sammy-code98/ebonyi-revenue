@@ -1,7 +1,10 @@
 <template>
   <div class="row bg-img text-white q-mt-xl q-pb-md">
     <div class="col-xs-12 col-sm-6 col-md-4 ">
-      <q-img src="https://www.ebsirb.com/images/resources/logo-1.png" class="logo-img"/>
+      <q-img
+        src="https://www.ebsirb.com/images/resources/logo-1.png"
+        class="logo-img"
+      />
       <div class="q-ma-md text-subtitle2">
         Ebsirs is the operational arm of the Ebonyi State Government responsible
         for the collection of taxes and other revenues.
@@ -65,13 +68,13 @@
       />
       <div class="gt-sm q-pa-md">
         <q-btn
-        color="positive"
-        label="Submit"
-        no-caps
-        class="q-ma-md  full-width" 
-      />
+          color="positive"
+          label="Submit"
+          no-caps
+          class="q-ma-md  full-width"
+        />
       </div>
-      
+
       <div class="lt-md q-pa-md">
         <q-btn
           color="positive"
@@ -87,49 +90,7 @@
 export default {
   data() {
     return {
-      email: "",
-      footerLinks: [
-        {
-          title: "Why QuizeApp?",
-          link1: "Product",
-          link2: "Solutions",
-          link3: "Blog",
-          link4: "Shop",
-          link5: "Status"
-        },
-        {
-          title: "Resources",
-          link1: "Product",
-          link2: "Solutions",
-          link3: "Blog",
-          link4: "Shop",
-          link5: "Status"
-        },
-        {
-          title: "Community",
-          link1: "Product",
-          link2: "Solutions",
-          link3: "Blog",
-          link4: "Shop",
-          link5: "Status"
-        },
-        {
-          title: "Support",
-          link1: "Product",
-          link2: "Solutions",
-          link3: "Blog",
-          link4: "Shop",
-          link5: "Status"
-        },
-        {
-          title: "Company",
-          link1: "Product",
-          link2: "Solutions",
-          link3: "Blog",
-          link4: "Shop",
-          link5: "Status"
-        }
-      ]
+      email: ""
     };
   }
 };
@@ -143,7 +104,7 @@ export default {
   background: linear-gradient(rgba(9, 11, 32, 0.8), rgba(24, 19, 21, 0.8));
   opacity: 0.9;
 }
-.logo-img{
+.logo-img {
   width: 80%;
   height: auto;
   margin: 20px;
