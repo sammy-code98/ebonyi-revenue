@@ -7,7 +7,7 @@
     <div class="text-center q-mt-md text-weight-light text-h6 " :class="$q.screen.lt.md ? 'text-center q-ma-md text-weight-light text-subtitle1' : 'text-center q-mt-md text-weight-light text-h6'">
       Getting information for filing your taxes just got easier
     </div>
-    <div class="row items-center q-mb-md">
+    <div class="row items-center q-px-xl  q-mb-md">
       <div
         v-for="(service, index) in services"
         :key="index"
