@@ -42,7 +42,7 @@
     </div>
 
     <div
-      class="col-xs-12 col-sm-4 col-md-4 q-pa-xl"
+      class="col-xs-12 col-sm-4 col-md-4" id="large-pad"  
       v-for="(info, index) in informations"
       :key="index"
     >
@@ -103,5 +103,11 @@ export default {
 
 .text-margin {
   margin-top: 100px;
+}
+// media queries
+@media screen and (min-width: 480px){
+  #large-pad{
+    padding: 40px;
+  }
 }
 </style>
