@@ -1,7 +1,7 @@
 <template>
   <div class="q-mt-xl">
     <q-img src="~assets/building.jpg" height="680px">
-      <div class="absolute-full text-subtitle2 inline-flex text-center">
+      <div class="absolute-full inline-flex text-center">
         <div :class="$q.screen.lt.md ? 'text-h4  text-weight-bold ' : 'text-h3  text-weight-bold ' " id="banner-text">
           Efficient and Transparent Processes
         </div>
