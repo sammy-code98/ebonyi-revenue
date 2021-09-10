@@ -2,12 +2,8 @@
   <q-layout view="lHh Lpr lFf">
     <q-header class="bg-grey-12 text-dark">
       <q-toolbar>
-        <q-avatar class="q-ml-md">
-          <img src="~assets/logo-1.png" />
-        </q-avatar>
-        <div class="text-capitalize q-ml-sm text-h6 text-grey text-weight-bold">
-          ebsirs
-        </div>
+          <img src="https://www.ebsirb.com/images/resources/logo-1.png"  class="q-ma-sm "/>
+        
         <q-space></q-space>
         <!-- menu for large screens -->
         <q-tabs v-model="tab" shrink stretch class="gt-sm">

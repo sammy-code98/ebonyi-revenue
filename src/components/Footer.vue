@@ -1,7 +1,7 @@
 <template>
   <div class="row bg-img text-white q-mt-xl q-pb-md">
     <div class="col-xs-12 col-sm-6 col-md-4 ">
-      <q-img src="~assets/logo-1.png"/>
+      <q-img src="https://www.ebsirb.com/images/resources/logo-1.png" class="logo-img"/>
       <div class="q-ma-md text-subtitle2">
         Ebsirs is the operational arm of the Ebonyi State Government responsible
         for the collection of taxes and other revenues.
@@ -142,5 +142,10 @@ export default {
 .bg-img {
   background: linear-gradient(rgba(9, 11, 32, 0.8), rgba(24, 19, 21, 0.8));
   opacity: 0.9;
+}
+.logo-img{
+  width: 80%;
+  height: auto;
+  margin: 20px;
 }
 </style>
